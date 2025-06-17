@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">My Portfolio</div>
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="container">
+      <div class="profile-content">
+        <div class="profile-image">
+          <img src="images/ppp1.jpeg" alt="Abhay and Aditya" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+        </div>
+        <div class="profile-text">
+          <h2>Hi, Abhay and Aditya this side...</h2>
+          <p>
+            We are passionate software developers with expertise in building modern web applications.
+            We specialize in React, TypeScript, and Node.js.
+          </p>
+          <a href="#" class="btn">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend Development</h3>
+          <ul>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Backend Development</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>GraphQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <img src="images/chess.png" alt="Chess.com Clone" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </div>
+          <div class="portfolio-content">
+            <h3>Chess.com</h3>
+            <p>Created a clone of chess.com with having Multiplayer capabilities.</p>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <img src="images/plinko4.jpg" alt="Plinko Game" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </div>
+          <div class="portfolio-content">
+            <h3>Plinko Game</h3>
+            <p>Recreated the Famous plinko game from scratch.</p>
+          </div>
+        </div>
+        <div class="portfolio-card">
+          <div class="portfolio-image">
+            <img src="images/zerodha.png" alt="Zerodha clone" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+          </div>
+          <div class="portfolio-content">
+            <h3>Investment app</h3>
+            <p>Tried implementing a investing app which lets you buy stocks and manage your portfolio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Stanzers Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
